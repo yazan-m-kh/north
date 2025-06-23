@@ -188,12 +188,10 @@ header .container .social i:hover {
 
 .hero .container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    padding-right: 15px;
+    /* width: 100%; */
+    /* padding-right: 15px; */
     padding-top: 40px;
 }
 
@@ -268,7 +266,7 @@ header .container .social i:hover {
 }
 
 .hero .container .hero-img img {
-    border-radius: 0 20px 20px 0;
+    border-radius: 20px ;
     width: 576px;
 }
 
@@ -1158,7 +1156,7 @@ footer .container .section a::after {
 }
 
 footer .container .section a:hover {
-    color: rgba(255, 0, 0, 0.644);
+    color: #eee;
     padding: 5px;
 }
 
