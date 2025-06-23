@@ -265,25 +265,26 @@ header .container .social i:hover {
     }
 }
 
-.hero .container .hero-img img {
-    border-radius: 20px ;
-    width: 576px;
-}
 
 @media (max-width:992px) {
+    .hero .container .hero-img img {
+        border-radius: 20px ;
+        width: 100%;
+    }
     .hero .container {
         flex-direction: column-reverse;
     }
-
+    
     .hero .container .hero-info {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
-    .hero .container .hero-img img {
-        border-radius: 20px;
-    }
+}
+.hero .container .hero-img img {
+    border-radius: 20px;
 }
 
 /* ========================== the end of hero code ====================================================*/
